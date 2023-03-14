@@ -1,0 +1,157 @@
+* {
+  background-color: hsl(216, 12%, 8%);
+  font-family: Overpass;
+}
+
+.card {
+  height: 420px;
+  width: 420px;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  background-color: hsl(213, 19%, 18%);
+  box-shadow: 0 4px 8px 0 hsl(0, 0%, 0%, 0.250), 0 6px 20px 0 hsl(0, 0%, 0%, 0.250);
+  transition-duration: 0.5s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.icon {
+  background-color: hsl(213, 19%, 18%);
+  width: 20px;
+  margin-top: 5%;
+  margin-left: 9%;
+}
+
+#star-icon {
+  background-color: hsl(210, 19%, 19%);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.text {
+  background-color: hsl(213, 19%, 18%);
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.text h1 {
+  font-size: 30px;
+  font-weight: 700;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(0, 0%, 100%);
+}
+
+.text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+}
+
+.rating {
+  background-color: hsl(213, 19%, 18%);
+  margin-top: 5%;
+}
+
+.rating ul {
+  display: inline;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.rating label {
+  font-size: 20px;
+  align-items: center;
+  background-color: hsl(210, 19%, 19%);
+  border: none;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin-right: 3%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.rating input[type=radio] {
+  display: none;
+}
+
+.rating input[type=radio]:checked+label {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.rating .submit {
+  background-color: hsl(25, 97%, 53%);
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+  width: 82%;
+  align-items: center;
+  padding: 15px;
+  margin-top: 9%;
+  margin-left: 9%;
+  margin-right: 5%;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#rating-back {
+  height: 320px;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+
+#thank-you {
+  background-color: hsl(213, 19%, 18%);
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+#thank-you-icon {
+  background-color: hsl(213, 19%, 18%);
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
